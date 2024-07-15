@@ -1,11 +1,4 @@
-
-// Before uploading the code you have to install the necessary library//
-//AFMotor Library https://learn.adafruit.com/adafruit-motor-shield/library-install //
-//NewPing Library https://github.com/livetronic/Arduino-NewPing// 
-//Servo Library https://github.com/arduino-libraries/Servo.git //
-// To Install the libraries go to sketch >> Include Library >> Add .ZIP File >> Select the Downloaded ZIP files From the Above links //
-
-
+
 #include <AFMotor.h>  
 #include <NewPing.h>
 #include <Servo.h> 
