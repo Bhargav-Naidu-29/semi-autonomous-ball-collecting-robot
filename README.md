@@ -69,12 +69,6 @@ Ultrasonic sensors can return "null" or `0` readings if the pulse is absorbed or
 * **Latency Management:** Integrated a 70ms polling delay in the sensor loop to allow ultrasonic echoes to dissipate, preventing "Cross-talk" interference.
 * **State Persistence:** Uses a `goesForward` boolean flag to ensure the soft-start logic only triggers during state transitions, optimizing CPU cycles.
 
-## 📈 Future Roadmap
-
-* **Asynchronous Logic:** Transitioning from `delay()`-based timing to a non-blocking `millis()` architecture for true multi-tasking and parallel vacuum operation.
-* **Vision Integration:** Adding an ESP32-Cam for color-based target identification (separating balls from obstacles).
-* **PID Navigation:** Implementing Proportional-Integral-Derivative control for smoother distance maintenance and path correction.
-
 ---
 
 ### How to use this project
@@ -82,5 +76,8 @@ Ultrasonic sensors can return "null" or `0` readings if the pulse is absorbed or
 1. **Hardware Setup:** Connect the HC-SR04 to A0/A1 and the Servo to Pin 10.
 2. **Library Requirements:** Install `AFMotor`, `NewPing`, and `Servo` libraries via the Arduino IDE.
 3. **Deployment:** Upload the provided `.ino` file to an Arduino Uno and ensure the motor shield is powered by an external 7.4V - 12V source.
+
+<img width="1000" height="988" alt="image" src="https://github.com/user-attachments/assets/3c147e34-b58b-4de2-881b-7a73f6410eb8" />
+
 
 ---
