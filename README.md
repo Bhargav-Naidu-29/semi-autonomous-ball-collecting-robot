@@ -1,6 +1,4 @@
-This is the complete, single-file `README.md` content you can copy and paste directly into your GitHub repository. It is designed to frame your project as a professional engineering endeavor, highlighting both the software logic and the physical hardware challenges you solved.
 
----
 
 # Semi-Autonomous Ball-Collecting Robot (SABHR)
 
